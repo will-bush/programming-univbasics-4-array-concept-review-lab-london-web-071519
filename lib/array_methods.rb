@@ -3,7 +3,9 @@ def find_element_index(array, value_to_find)
 end
 
 def find_max_value(array)
-  array.sort
+  array.sort.reverse
+  array = array.sort.reverse
+  puts array[0]
 end
 end
 
